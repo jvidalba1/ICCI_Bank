@@ -1,0 +1,53 @@
+@CHARSET "ISO-8859-1";
+
+#form1 .chAgreement{
+	margin-left: 45%;
+}
+
+#form1 .panelGrid{
+	border: none;	
+}
+
+#form1 #outTextViewCardUsage{
+	text-align: center;
+} 
+	
+#form1 .panelGridText{
+	color: black;
+}
+	
+#form2 .header {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#form1 table{
+	border-color: red;
+	border-width: 3px;
+}
+	
+#form1 table tr th{
+	color:red;
+}
+
+#form1 table tr td {
+	color:maroon;
+}
+
+#form3 table{
+	border-color: red;
+	border-width: 3px;
+}
+	
+#form3 table tr th{
+	color:red;
+}
+
+#form3 table tr td {
+	color:maroon;
+}
+	
+	
+#form2 table{
+	border-width: 3px;
+}

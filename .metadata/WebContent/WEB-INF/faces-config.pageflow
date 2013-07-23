@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf13498431515840" configfile="/ICCI_Bank/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="LoginScreen" x="54" y="108" id="pf13499475420710" referenceLink="//@navigationRule.1/@fromViewId|" outlinks="pf13499475420711 pf13499475420712" path="/LoginScreen.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="CRHomePage" x="50" y="-31" id="pf13499475420713" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf13499475420711" path="/CRHomePage.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="CustomerLogin" x="264" y="108" id="pf13499475420714" referenceLink="//@navigationRule.2/@fromViewId|" outlinks="pf13499475420715" inlinks="pf13499475420712" path="/CustomerLogin.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="CardDetails" x="511" y="108" id="pf13499475420716" referenceLink="//@navigationRule.4/@fromViewId|" outlinks="pf13500372118250 pf13500372974772" inlinks="pf13499475420715" path="/CardDetails.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="ChooseScheme" x="500" y="-31" id="pf13500372118251" referenceLink="//@navigationRule.10/@fromViewId|" outlinks="pf13504494381540" inlinks="pf13500372118250" path="/ChooseScheme.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="CustomerHomePage" x="696" y="108" id="pf13500372974773" referenceLink="//@navigationRule.4/@navigationCase.0/@toViewId|" inlinks="pf13500372974772" path="/CustomerHomePage.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="BlockCard" x="60" y="228" id="pf13502765222930" referenceLink="//@navigationRule.5/@fromViewId|" outlinks="pf13502765222931" path="/BlockCard.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="BlockCardSuccess" x="264" y="228" id="pf13502765222932" referenceLink="//@navigationRule.5/@navigationCase.0/@toViewId|" inlinks="pf13502765222931" path="/BlockCardSuccess.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="ApproveCard" x="717" y="228" id="pf13502892206863" referenceLink="//@navigationRule.16/@navigationCase.0/@toViewId|" outlinks="pf13502892206864" path="/ApproveCard.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="ApproveCardSuccess" x="898" y="228" id="pf13502892206866" referenceLink="//@navigationRule.6/@navigationCase.0/@toViewId|" inlinks="pf13502892206864" path="/ApproveCardSuccess.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="ApplyForCard" x="504" y="228" id="pf13502892206867" referenceLink="//@navigationRule.7/@navigationCase.0/@toViewId|" outlinks="pf13502892206868" inlinks="pf13502892206868" path="/ApplyForCard.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="SchemeReport" x="48" y="336" id="pf13502973778479" referenceLink="//@navigationRule.8/@fromViewId|" outlinks="pf135029737784710" path="/SchemeReport.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="SchemeDetails" x="266" y="336" id="pf135029737784711" referenceLink="//@navigationRule.8/@navigationCase.0/@toViewId|" inlinks="pf135029737784710" path="/SchemeDetails.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="On-LineTransaction" x="488" y="336" id="pf13503013940560" referenceLink="//@navigationRule.9/@fromViewId|" outlinks="pf13503013940561" path="/On-LineTransaction.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="On-LineTransactionSuccess" x="679" y="336" id="pf13503013940562" referenceLink="//@navigationRule.9/@navigationCase.0/@toViewId|" inlinks="pf13503013940561" path="/On-LineTransactionSuccess.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="SchemeAgreement" x="701" y="-31" id="pf13504494381541" referenceLink="//@navigationRule.11/@fromViewId|" outlinks="pf13504494381542" inlinks="pf13504494381540" path="/SchemeAgreement.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="SchemeSuccess" x="912" y="-31" id="pf13504494381544" referenceLink="//@navigationRule.11/@navigationCase.0/@toViewId|" inlinks="pf13504494381542" path="/SchemeSuccess.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="Payment" x="457" y="446" id="pf13504650378710" referenceLink="//@navigationRule.12/@fromViewId|" outlinks="pf13504650378711" path="/Payment.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="PaymentSuccess" x="737" y="446" id="pf13504650378712" referenceLink="//@navigationRule.12/@navigationCase.0/@toViewId|" inlinks="pf13504650378711" path="/PaymentSuccess.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="Approved&amp;Pending_RejectedCardReport" x="12" y="432" id="pf13504682765720" referenceLink="//@navigationRule.14/@fromViewId|" outlinks="pf13504682765721 pf13504682765722" path="/Approved&amp;Pending_RejectedCardReport.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="ApprovedCardDetails" x="324" y="432" id="pf13504682765723" referenceLink="//@navigationRule.13/@navigationCase.0/@toViewId|" inlinks="pf13504682765721" path="/ApprovedCardDetails.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="Pending&amp;RejectedApplicationDetails" x="22" y="612" id="pf13504682765724" referenceLink="//@navigationRule.14/@navigationCase.0/@toViewId|" inlinks="pf13504682765722" path="/Pending&amp;RejectedApplicationDetails.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="UnblockCard" x="342" y="596" id="pf13504682765725" referenceLink="//@navigationRule.15/@fromViewId|" outlinks="pf13504682765726" path="/UnblockCard.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="UnblockCardSuccess" x="564" y="596" id="pf13504682765727" referenceLink="//@navigationRule.15/@navigationCase.0/@toViewId|" inlinks="pf13504682765726" path="/UnblockCardSuccess.jsp"/>
+  <links id="pf13499475420711" target="pf13499475420713" source="pf13499475420710" outcome="successCr"/>
+  <links id="pf13499475420712" target="pf13499475420714" source="pf13499475420710" outcome="success"/>
+  <links id="pf13499475420715" target="pf13499475420716" source="pf13499475420714" outcome="success"/>
+  <links id="pf13500372118250" target="pf13500372118251" source="pf13499475420716" outcome="noscheme"/>
+  <links id="pf13500372974772" target="pf13500372974773" source="pf13499475420716" outcome="success"/>
+  <links id="pf13502765222931" target="pf13502765222932" source="pf13502765222930" outcome="success"/>
+  <links id="pf13502892206864" target="pf13502892206866" source="pf13502892206863" outcome="success"/>
+  <links id="pf13502892206868" target="pf13502892206867" source="pf13502892206867" outcome="success">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+  <links id="pf135029737784710" target="pf135029737784711" source="pf13502973778479"/>
+  <links id="pf13503013940561" target="pf13503013940562" source="pf13503013940560" outcome="success"/>
+  <links id="pf13504494381540" target="pf13504494381541" source="pf13500372118251" outcome="success"/>
+  <links id="pf13504494381542" target="pf13504494381544" source="pf13504494381541" outcome="success"/>
+  <links id="pf13504650378711" target="pf13504650378712" source="pf13504650378710" outcome="Succesfull"/>
+  <links id="pf13504682765721" target="pf13504682765723" source="pf13504682765720" outcome="successfullApprove"/>
+  <links id="pf13504682765722" target="pf13504682765724" source="pf13504682765720" outcome="successReject"/>
+  <links id="pf13504682765726" target="pf13504682765727" source="pf13504682765725" outcome="success"/>
+</pageflow:Pageflow>

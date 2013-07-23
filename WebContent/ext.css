@@ -1,0 +1,91 @@
+
+#form1 table{
+	border-color: maroon;
+	border-width: 3px;
+}
+	
+#form3 table{
+	border-color: red;
+	border-width: 3px;
+}
+#form4 table{
+	border-color: red;
+	border-width: 3px;
+}
+
+#form1 table tr th{
+	color:red;
+}
+
+#form3 table tr th{
+	color:maroon;
+}
+
+#form4 table tr th{
+	color:maroon;
+}
+	
+#form1 table tr td {
+	color:maroon;
+}
+
+#formf1 table{
+	border-color: maroon;
+	border-width: 3px;
+}
+	
+#formf1 table tr th{
+	color:red;
+}
+
+#formf1 table tr td {
+	color:maroon;
+}
+	
+#form2 table{
+	border-width: 3px;
+}
+
+.cardno{
+	width: 50px
+}
+
+#form3 table{
+	border-color: red;
+	border-width: 3px;
+}
+	
+#form3 table tr th{
+	color:red;
+}
+
+#form3 table tr td {
+	color:maroon;
+}
+
+#form1 .chAgreement{
+	margin-left: 45%;
+}
+
+#form1 .panelGrid{
+	border: none;	
+}
+
+#form1 #outTextViewCardUsage{
+	text-align: center;
+} 
+
+#form1 .panelGridText{
+	color: black;
+}
+	
+#form2 .header {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#form2 #table2 .header{
+	color:maroon;
+}
+#form2 #title1 {
+	color:maroon;
+}
